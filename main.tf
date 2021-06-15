@@ -12,5 +12,6 @@ resource "aws_instance" "app_server" {
     Name        = "ExampleAppServerInstance"
     environment = "test"
     project     = "Atlantis"
+    owner       = "basavaraj"
   }
 }
