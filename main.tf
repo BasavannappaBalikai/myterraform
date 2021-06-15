@@ -12,5 +12,3 @@ resource "aws_instance" "app_server" {
     Name = "ExampleAppServerInstance"
   }
 }
-
-resource "null_resource" "example1" {}
